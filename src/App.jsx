@@ -660,7 +660,7 @@ const ContactIntroSection = () => (
         </div>
         <div>
           <h3 className="font-bold text-slate-900">Teléfono</h3>
-          <p className="text-slate-600">+1 (555) 123-4567</p>
+          <p className="text-slate-600">+51 923 639 734</p>
         </div>
       </div>
       <div className="flex items-start gap-4">
@@ -670,9 +670,9 @@ const ContactIntroSection = () => (
         <div>
           <h3 className="font-bold text-slate-900">Oficinas</h3>
           <p className="text-slate-600">
-            Centro Empresarial Torre A, Piso 12
+            Huánuco, Huánuco
             <br />
-            Ciudad de Negocios
+            Peru
           </p>
         </div>
       </div>
@@ -922,8 +922,8 @@ const App = () => {
             </div>
           </div>
           <div className="border-t border-slate-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
-            <p>&copy; {new Date().getFullYear()} GOTA Consulting. Todos los derechos reservados.</p>
-            <p>Diseñado con precisión.</p>
+            <p>&copy; {new Date().getFullYear()} GOTA Consulting. Todos los derechos reservados 2026.</p>
+            <p>GOTA Consulting.</p>
           </div>
         </div>
       </footer>
