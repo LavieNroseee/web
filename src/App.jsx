@@ -171,9 +171,7 @@ const HeroSection = ({ navigateTo }) => (
             medida y dashboards intuitivos.
           </p>
           <p className="text-base text-slate-500 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel neque at mauris consequat
-            posuere, sed commodo lectus ullamcorper. Curabitur interdum, massa eget aliquet lacinia, erat
-            sapien pulvinar justo, vitae fermentum lorem justo at nibh.
+            Diseñamos soluciones tecnológicas adaptadas a cada organización, integrando procesos, optimizando recursos y centralizando la información en plataformas dinámicas y fáciles de usar. Nuestros desarrollos permiten visualizar indicadores clave en tiempo real, detectar oportunidades de mejora y anticipar riesgos, facilitando una gestión más eficiente, ágil y basada en evidencia.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -253,9 +251,7 @@ const MiniServicesSection = () => (
         Combinamos estrategia de negocio con tecnología de punta para entregar impacto sostenido.
       </p>
       <p className="text-slate-500 max-w-3xl mx-auto mb-12 leading-relaxed">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vitae porta lacus. Donec auctor, nunc
-        sed consequat lacinia, magna lacus posuere lectus, at feugiat justo erat sed nulla. Vestibulum ante
-        ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+        Nuestro enfoque conecta objetivos estratégicos con herramientas digitales avanzadas, automatización inteligente y sistemas personalizados que optimizan procesos, mejoran la toma de decisiones y generan ventajas competitivas reales. Trabajamos de la mano con cada cliente para asegurar que la innovación tecnológica esté alineada con su crecimiento, eficiencia y sostenibilidad.
       </p>
       <div className="grid md:grid-cols-3 gap-8">
         {miniServices.map((item, i) => (
@@ -279,8 +275,7 @@ const AboutHeroSection = () => (
         accesibles y potentes.
       </p>
       <p className="text-sm text-slate-400 mt-6 leading-relaxed">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat, augue non ultricies
-        malesuada, lectus lacus lacinia risus, non fermentum neque tortor sed justo.
+        Creemos que el análisis de datos y la tecnología avanzada no deben ser privilegio de grandes corporaciones, sino recursos al alcance de empresas, instituciones y proyectos de cualquier tamaño.
       </p>
     </div>
   </section>
