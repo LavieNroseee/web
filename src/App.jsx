@@ -682,7 +682,7 @@ const App = () => {
               <img 
                 src="/img/logo.png" 
                 alt="ADN Analytics" 
-                className="h-11 w-auto" 
+                className="h-13 w-auto" 
                 onError={(e) => { e.target.onerror = null; e.target.src = 'https://via.placeholder.com/200x60/ffffff/004a8f?text=ADN+Analytics'; }}
               />
             </div>
