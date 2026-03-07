@@ -592,14 +592,14 @@ const ContactPage = () => (
              <div className="bg-teal-100 p-3 rounded-lg text-teal-600"><Phone size={24} /></div>
              <div>
                <h3 className="font-bold text-slate-900">Teléfono</h3>
-               <p className="text-slate-600">+1 (555) 123-4567</p>
+               <p className="text-slate-600">+51 973 033 866</p>
              </div>
            </div>
            <div className="flex items-start gap-4">
              <div className="bg-indigo-100 p-3 rounded-lg text-indigo-600"><MapPin size={24} /></div>
              <div>
                <h3 className="font-bold text-slate-900">Oficinas</h3>
-               <p className="text-slate-600">Centro Empresarial Torre A, Piso 12<br/>Ciudad de Negocios</p>
+               <p className="text-slate-600">Perú<br/>Perú</p>
              </div>
            </div>
         </div>
