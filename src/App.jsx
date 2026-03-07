@@ -748,7 +748,7 @@ const App = () => {
                 <img 
                   src="/img/logo.png" 
                   alt="ADN Analytics" 
-                  className="h-9 w-auto grayscale opacity-80 hover:grayscale-0 transition-all" 
+                  className="h-13 w-auto grayscale opacity-80 hover:grayscale-0 transition-all" 
                   onError={(e) => { e.target.onerror = null; e.target.src = 'https://via.placeholder.com/150x40/ffffff/004a8f?text=ADN+Analytics'; }}
                 />
               </div>
