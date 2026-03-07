@@ -55,7 +55,7 @@ const HomePage = ({ navigateTo }) => (
               </h1>
               
               <p className="text-lg sm:text-xl text-slate-600 mb-8 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                GOTA Consulting transforma la complejidad de sus datos en claridad estratégica mediante sistemas a medida y dashboards intuitivos.
+                ADN Analytics transforma la complejidad de sus datos en claridad estratégica mediante sistemas a medida y dashboards intuitivos.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -111,7 +111,7 @@ const HomePage = ({ navigateTo }) => (
     {/* Mini Services Teaser */}
     <section className="py-20 bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold text-slate-900 mb-4">¿Por qué elegir GOTA?</h2>
+        <h2 className="text-3xl font-bold text-slate-900 mb-4">¿Por qué elegir ADN Analytics?</h2>
         <p className="text-slate-600 max-w-2xl mx-auto mb-12">Combinamos estrategia de negocio con tecnología de punta.</p>
         <div className="grid md:grid-cols-3 gap-8">
           {[
@@ -145,7 +145,7 @@ const AboutPage = () => (
         <div>
           <h2 className="text-3xl font-bold text-slate-900 mb-6">Nuestra Historia</h2>
           <p className="text-slate-600 mb-4 leading-relaxed">
-            GOTA Consulting nació de una observación simple: muchas organizaciones tienen datos valiosos, pero carecen de las herramientas para interpretarlos.
+            ADN Analytics nació de una observación simple: muchas organizaciones tienen datos valiosos, pero carecen de las herramientas para interpretarlos.
           </p>
           <p className="text-slate-600 mb-4 leading-relaxed">
             Fundada por un equipo multidisciplinario de ingenieros, diseñadores y analistas de negocio, nos dedicamos a cerrar la brecha entre la información cruda y la toma de decisiones ejecutivas.
@@ -418,7 +418,7 @@ const ProjectsPage = () => {
                         <div className="w-3 h-3 rounded-full bg-green-400"></div>
                       </div>
                       <div className="px-4 py-1 bg-slate-50 rounded-md text-xs text-slate-500 font-mono border border-slate-100 flex items-center gap-2">
-                         <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span> secure-app.gota.com
+                         <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span> secure-app.adnanalytics.com
                       </div>
                     </div>
                     <div className="flex flex-1 overflow-hidden">
@@ -585,7 +585,7 @@ const ContactPage = () => (
              <div className="bg-blue-100 p-3 rounded-lg text-blue-600"><Mail size={24} /></div>
              <div>
                <h3 className="font-bold text-slate-900">Correo Electrónico</h3>
-               <p className="text-slate-600">contacto@gotaconsulting.com</p>
+               <p className="text-slate-600">contacto@adnanalytics.com</p>
              </div>
            </div>
            <div className="flex items-start gap-4">
@@ -678,11 +678,13 @@ const App = () => {
       <nav className="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20 items-center">
-            <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer" onClick={() => navigateTo('inicio')}>
-              <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white font-bold">
-                <Layers size={20} />
-              </div>
-              <span className="font-bold text-xl text-slate-900 tracking-tight">GOTA Consulting</span>
+            <div className="flex-shrink-0 flex items-center cursor-pointer" onClick={() => navigateTo('inicio')}>
+              <img 
+                src="/img/logo.png" 
+                alt="ADN Analytics" 
+                className="h-10 w-auto" 
+                onError={(e) => { e.target.onerror = null; e.target.src = 'https://via.placeholder.com/200x60/ffffff/004a8f?text=ADN+Analytics'; }}
+              />
             </div>
             
             {/* Desktop Menu */}
@@ -742,11 +744,13 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div className="col-span-1 md:col-span-2">
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 bg-slate-900 rounded-lg flex items-center justify-center text-white font-bold">
-                  <Layers size={20} />
-                </div>
-                <span className="font-bold text-xl text-slate-900">GOTA Consulting</span>
+              <div className="flex items-center mb-4">
+                <img 
+                  src="/img/logo.png" 
+                  alt="ADN Analytics" 
+                  className="h-8 w-auto grayscale opacity-80 hover:grayscale-0 transition-all" 
+                  onError={(e) => { e.target.onerror = null; e.target.src = 'https://via.placeholder.com/150x40/ffffff/004a8f?text=ADN+Analytics'; }}
+                />
               </div>
               <p className="text-slate-500 text-sm max-w-xs">
                 Transformando datos en decisiones estratégicas. Su aliado tecnológico para el futuro digital.
@@ -769,7 +773,7 @@ const App = () => {
             </div>
           </div>
           <div className="border-t border-slate-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-400">
-            <p>&copy; {new Date().getFullYear()} GOTA Consulting. Todos los derechos reservados.</p>
+            <p>&copy; {new Date().getFullYear()} ADN Analytics. Todos los derechos reservados.</p>
             <p>Diseñado con precisión.</p>
           </div>
         </div>
