@@ -159,21 +159,23 @@ const AboutPage = () => (
             </div>
           </div>
         </div>
-        <div className="bg-slate-100 rounded-3xl p-8 min-h-[400px] flex items-center justify-center relative overflow-hidden">
-             {/* Abstract Team Illustration */}
-             <div className="absolute inset-0 opacity-10" style={{backgroundImage: 'radial-gradient(#475569 1px, transparent 1px)', backgroundSize: '20px 20px'}}></div>
-             <div className="text-center relative z-10">
-               <div className="flex justify-center -space-x-4 mb-4">
-                  {[1,2,3,4].map(i => (
-                    <div key={i} className="w-16 h-16 rounded-full bg-white border-4 border-slate-100 flex items-center justify-center text-slate-300 font-bold shadow-md">
-                      <Users size={24} />
-                    </div>
-                  ))}
-               </div>
-               <p className="font-bold text-slate-900 text-xl">Talento Humano</p>
-               <p className="text-slate-500">El corazón de nuestra tecnología</p>
-             </div>
-        </div>
+        <div 
+  className="bg-slate-100 rounded-3xl p-8 min-h-[400px] flex items-center justify-center relative overflow-hidden"
+  style={{
+    backgroundImage: "url('/img/somos.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center"
+  }}
+>
+  {/* Overlay opcional para mejorar contraste */}
+  <div className="absolute inset-0 bg-black/30"></div>
+
+  {/* Contenido */}
+  <div className="absolute bottom-6 left-0 w-full text-center z-10 px-4">
+  <p className="font-bold text-white text-xl">Talento Humano</p>
+  <p className="text-white/80">El corazón de nuestra tecnología</p>
+</div>
+</div>
       </div>
 
       <div className="mb-16">
@@ -383,7 +385,7 @@ const ProjectsPage = () => {
         </div>
 
         {/* Interactive Demo */}
-        <div className="bg-white rounded-3xl shadow-xl border border-slate-100 overflow-hidden mb-24">
+     {/*   <div className="bg-white rounded-3xl shadow-xl border border-slate-100 overflow-hidden mb-24">
              <div className="p-8 bg-slate-50 border-b border-slate-200">
                <div className="flex flex-col md:flex-row justify-between items-center gap-6">
                  <div>
@@ -483,6 +485,7 @@ const ProjectsPage = () => {
                </div>
              </div>
         </div>
+        */}
 
         {/* Novedad: Portafolio de Casos (Estilo Galería / Behance) */}
         <div className="mb-24">
@@ -624,7 +627,7 @@ const ContactPage = () => (
             <input type="email" className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-blue-500 outline-none bg-slate-50" placeholder="juan@empresa.com" />
           </div>
 
-          <div>
+           <div>
             <label className="block text-sm font-medium text-slate-700 mb-2">Tipo de Proyecto</label>
             <select className="w-full px-4 py-3 rounded-lg border border-slate-200 focus:ring-2 focus:ring-blue-500 outline-none bg-slate-50 text-slate-600">
               <option>Seleccione una opción...</option>
